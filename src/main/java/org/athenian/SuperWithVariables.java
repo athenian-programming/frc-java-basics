@@ -8,7 +8,7 @@ public class SuperWithVariables {
 }
 
 class Vehicle {
-  int noOfWheels = 4;
+  int wheelCount = 4;
 }
 
 class Bike extends Vehicle {
@@ -16,6 +16,6 @@ class Bike extends Vehicle {
 
   public void printWheels() {
     System.out.println("Number of wheels in Bike : " + noOfWheels);
-    System.out.println("Number of wheels in Vehicle : " + super.noOfWheels);
+    System.out.println("Number of wheels in Vehicle : " + super.wheelCount);
   }
 }
