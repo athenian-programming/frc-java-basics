@@ -9,13 +9,13 @@ public class SuperWithMethods {
 
 class Fruit {
   public void fruitColor() {
-    System.out.println("The fruit has a color.");
+    System.out.println("The fruit has a color");
   }
 }
 
 class Apple extends Fruit {
   public void fruitColor() {
     super.fruitColor();
-    System.out.println("Apple is Red.");
+    System.out.println("Apple is Red");
   }
 }
