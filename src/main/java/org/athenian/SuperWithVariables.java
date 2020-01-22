@@ -12,10 +12,10 @@ class Vehicle {
 }
 
 class Bike extends Vehicle {
-  int wheelCount1 = 2;
+  int wheelCount2 = 2;
 
   public void printWheels() {
-    System.out.println("Number of wheels in Bike : " + wheelCount1);
+    System.out.println("Number of wheels in Bike : " + wheelCount2);
     System.out.println("Number of wheels in Vehicle : " + super.wheelCount);
   }
 }
